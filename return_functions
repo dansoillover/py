@@ -1,0 +1,7 @@
+def outer_function():
+	print("outer_function is called")
+    
+	def inner_function():
+    		print("inner_function is called")
+      
+	return inner_function
