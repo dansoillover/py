@@ -1,0 +1,6 @@
+def add_one_decorator(func):
+	def add_one():
+    	value = func()
+        return value + 1
+        
+	return add_one
