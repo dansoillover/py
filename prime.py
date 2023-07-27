@@ -1,7 +1,7 @@
 x = int(input("Enter a number: "))
 
 if x > 1:
-    for i in range(2, int(math.sqrt(num)) + 1):
+    for i in range(2, int(math.sqrt(x)) + 1):
         if (x % i) == 0:
             print(x, "is not a prime number")
             break
