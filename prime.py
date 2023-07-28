@@ -1,4 +1,4 @@
-x = int(input("Enter a number: "))
+x = int(input("Enter a number: "))  # only integer!
 
 if x > 1:
     for i in range(2, int(math.sqrt(x)) + 1):
