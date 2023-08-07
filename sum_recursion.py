@@ -9,4 +9,4 @@ num = 16
 if num < 0:
     print("Enter a positive number")
 else:
-    print("The sum is",recur_sum(num))
+    print("The sum: ",recur_sum(num))
